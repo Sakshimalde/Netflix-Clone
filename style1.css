@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/c1366fb4-3292-4428-9639-b73f25539794/3417bf9a-0323-4480-84ee-e1cb2ff0966b/IN-en-20240408-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height:90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px,100vw);
+    position: relative;
+    background-color: black;
+}
+.main .box{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.7;
+    top: 0;
+}
+nav{
+    margin: auto;
+    width: 95%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    flex-direction: row;
+}
+nav button{
+    margin: 10px;
+    width: 70px;
+    height: 30px;
+    font-size: medium;
+    color: white;
+    background-color: transparent;
+}
+span{
+    position: relative;
+    z-index: 1;
+}
+
+.hero{
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+    gap: 20px;
+    padding: auto;
+    font-family: sans-serif;
+}
+span h1{
+    
+    font-size: 3.5rem;
+    font-weight: 1000; 
+    align-items: center;
+    justify-content: center;
+}
+.hero span button{
+    background-color: rgb(255, 25, 25);
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+}
+.seperator{
+    height:10px;
+    background-color:gray;
+}
+
+.main2{
+    height: 90vh;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.box2{
+    
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    color: white;
+    word-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    text-align: left;
+    display: flex;
+
+}
+.box2 .sp{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0 200px 0 200px;
+    gap:15px;
+
+}
+.sp > span:first-child{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.sp > span:nth-child(2){
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+.boximg{
+    position: relative;
+}
+
+.boximg img{
+    width: 37vw;
+    position: relative;
+    z-index: 10;
+    right: 150;
+
+}
+.boximg video{
+
+    position: absolute;
+    right: 150;
+    top: 55;
+}
+
+.box3{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    color: white;
+    word-wrap: inherit;
+    align-items: center;
+   justify-content: center;
+    font-size: medium;
+    display: flex;
+    
+}
+
+.box3 .sp{
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px 0 200px;
+    gap: 10px;
+    
+
+}
+
+.box3 .rec{
+    width: 60%;
+    height: 25%;
+    background-color: black;
+    border: 2px solid #80808090;
+    border-radius: 20px;  
+    display: flex;
+    position: absolute;
+    align-items: center;
+    left: 21vw;
+    bottom: 10;
+}
+
+.rec img{
+
+  width: 50px;
+  height: 70px;
+  border-radius: 500px;
+  margin: auto;
+  position: relative;
+  right: 180;
+}
+
+.rec span{
+    display: flex;
+    flex-direction: column;
+    right: 360;
+
+}
+
+.box3 .boximg1 img{
+    width: 100%;
+    margin: auto;
+    padding: 0 200px 0 200px;
+    z-index: 10;
+   
+}
+
+.box3 .boximg1{
+    position: relative;
+}
+
+.rec .gif{
+    position: relative;
+    width: 15%;
+    height: 40px;
+    right: 250;
+}
+
+
+.box4{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    color: white;
+    word-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    text-align: left;
+    display: flex;
+}
+.box4 .sp{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0 200px 0 200px;
+    gap:15px;
+}
+
+.boximg2{
+    position: relative;
+}
+
+.boximg2 img{
+    width: 37vw;
+    position: relative;
+    z-index: 10;
+    right: 150;
+
+}
+.boximg2 video{
+
+    width: 22vw;
+    position: absolute;
+    right: 250;
+    top: 50;
+}
+
+.box5{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    color: white;
+    word-wrap: inherit;
+    align-items: center;
+   justify-content: center;
+    font-size: medium;
+    display: flex;
+    
+}
+
+.box5 .sp{
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px 0 200px;
+    gap: 10px;
+    
+
+}
+.box5 .boximg1 img{
+    width: 100%;
+    margin: auto;
+    padding: 0 200px 0 200px;
+    
+}
+
+.final{
+    width: 100%;
+    height: 120%;
+    color: white;
+     margin: auto;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.final .sq{
+    width: 100%;
+    height:40vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    
+}
+.sq1{
+    width: 76vw;
+    background-color: rgb(45, 45, 45);
+    height: 5.5vw;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sq1:hover{
+    background-color: rgb(44, 44, 44);
+    transition-duration: 0.8s;
+ 
+}
+.final >span:first-child{
+    margin: 70px;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.sq1 div{
+    margin-left:15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    position: absolute;
+    float: right;
+    left: 143vh;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+.final button{
+    background-color: rgb(255, 25, 25);
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-top: 10px;
+    padding: 10 20 10 20;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.contact{
+    width: 80%;
+    height: 30%;
+    color: white;
+    margin: auto;
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    margin: 15vh 20vh;
+    font-family: sans-serif;
+       
+}
+
+.col{
+   
+    width: 40vh;
+    height: 30vh;   
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.col span{
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.col span button{
+    width: 200px;
+    padding: 5 110 5 0;
+    background-color: black;
+    border: 1px solid gray;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    border-radius: 5px;
+}
+
+
